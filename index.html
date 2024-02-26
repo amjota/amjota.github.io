@@ -29,17 +29,7 @@
   <!-- Inicio NavBar-->  
 
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container">
-        <a class="navbar-brand" href="index.html">
-          <img src="assets/img/logo_2.png" alt="Bootstrap" width="330" height="32"></a>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarText">      
-          <span class="navbar-text text-light fs-6">
-            Seja Bem-Vindo (a) ao meu Portfólio
-          </span>
-        </div>
-      </div>
-    </nav>
+    
   </header>
 
   <!-- Fim NavBar-->
@@ -47,49 +37,20 @@
 <main class="content">
 
   <section>
-    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
-          aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
-      <div class="mt-2 carousel-inner">
-        <div class="carousel-item active">
-          <img src="assets/img/tecnologia_home.jpg" width="100%" height="550">
-          <div class="container">
-            <div class="carousel-caption text-start d-none d-md-block" style="top:5rem;">
-              <h1 style="font-size: 4rem; font-weight: bold;">Facilidade para o trabalho em equipe </h1>
-              <p style="font-size: 1.5rem;">Confiante em minha capacidade de contribuir de maneira significativa</p>
-              <!--<p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>-->
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="assets/img/tecnologia_home_02.jpg" width="100%" height="550">
-          <div class="container">
-            <div class="carousel-caption text-start" style="top:5rem;">
-              <h1 style="font-size: 4rem; font-weight: bold;">Duas décadas de experiência dedicadas ao Suporte ao Cliente</h1>
-              <p style="font-size: 1.5rem;">Desenvolvendo estratégias de atendimento que priorizam a eficiência</p>
-              <!--<p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>-->
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="assets/img/tecnologia_home_03.jpg" width="100%" height="550">
-          <div class="container">
-            <div class="carousel-caption text-start" style="top:5rem;">
-              <h1 style="font-size: 4rem; font-weight: bold;">Postura profissional orientada para resultados</h1>
-              <p style="font-size: 1.5rem;">Sempre prezando a qualidade e organização das demandas</p>
-              <!--<p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>-->
-            </div>
-          </div>
+    <div class="header">
+      <img src="{% static 'assets/img/tecnologia_home_02.jpg' %}" width="100%" height="915">
+      <div class="container">
+        <div class="carousel-caption text-start" style="top:15rem;">
+          <h5>Olá, seja bem vindo!</h5>
+             <h1 style="font-size: 4rem; font-weight: bold;">Eu sou <br> André De Melo Jota </h1>        
+          <p style="font-size: 1.5rem; margin-top: 15px;">| Analista de Suporte Pleno | Analista De Dados |</p>
+          <p><a class="mt-4 btn btn-lg btn-outline-light" href="#about">Saiba Mais</a></p>        
         </div>
       </div>
     </div>
   </section>
 
-  <article>
+  <section id="about">
   <div class="mt-5 container">
     <h1 class="display-3 text-center text-primary-emphasis">Apresentação</h1>
   </div>
@@ -119,32 +80,9 @@
           data-bs-toggle="modal" data-bs-target="#centralModal">Baixar Currículo</button>
         </a>
       </div>
-
-      <!--<div class="px-3 col-lg-4 col-md-7 col-sm-12 order-md-2 mt-5 text-center">
-        <img src="assets/img/objetivos.png" width="350" height="400" class="img-fluid"
-          alt="Imagem Responsiva">
-      </div>
-      <div class="col-lg-8 col-md-5 col-sm-12 order-md-1 py-5 mt-5">
-        <h2 class="featurette-heading fw-normal">Meus objetivos</h2>
-        <p class="mt-3 py-1">Diante do mercado competitivo, atualmente estou cursando Ciência de Dados Powered by Google Cloud pela Unicid, e
-          desempenho a função de Analista de Dados utilizando ferramentas como SQL, Power BI e desenvolvimento de dashboards. Em um cenário em que a eficiência e a tomada de decisões baseadas em dados são 
-          cruciais, minha atuação como Analista de Dados tem sido fundamental para proporcionar insights valiosos e impulsionar estratégias 
-          de negócios.
-        </p>
-        <p>Na minha rotina profissional, utilizo habilidades avançadas em SQL para extrair, transformar e analisar dados complexos, 
-          garantindo a integridade e a confiabilidade das informações. A expertise no Power BI permite a criação de visualizações 
-          interativas e relatórios dinâmicos, fornecendo uma compreensão clara dos padrões e tendências presentes nos dados.
-        </p>
-        <p>Em um mercado competitivo, reconheço a importância de permanecer atualizado com as últimas tendências em análise de dados e 
-          tecnologias relacionadas. Minha abordagem centrada em resultados, aliada à minha paixão por transformar dados em insights 
-          acionáveis, tem sido um diferencial em minha contribuição para o sucesso das equipes em que atuo. Estou comprometido em continuar 
-          aprimorando minhas habilidades para enfrentar os desafios e oportunidades constantes deste ambiente dinâmico e altamente 
-          competitivo.
-        </p>
-      </div>-->
     </div>
   </div>
-</article>
+  </section>
 
 <section>
   <div class="mt-5 container">
