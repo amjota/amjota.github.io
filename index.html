@@ -7,7 +7,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="author" content="Leste Serviços">
-<title> Portfólio - André De Melo Jota </title>
+<title> André De Melo Jota </title>
 <meta name="theme" content="Portfólio">
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -31,6 +31,19 @@
   <header>
     
   </header>
+  <style>
+    .carousel-indicators .rounded-circle {
+      width: 10px; /* Ajuste o tamanho conforme necessário */
+      height: 10px; /* Ajuste o tamanho conforme necessário */
+      background-color: #000000; /* Substitua pela cor desejada */
+      border: 1px solid #000000; /* Substitua pela cor desejada ou remova se não quiser borda */
+    }
+  
+    .carousel-indicators .active {
+      background-color: #000000; /* Substitua pela cor desejada quando o indicador estiver ativo */
+      border: 1px solid #000203; /* Substitua pela cor desejada ou remova se não quiser borda */
+    }
+  </style>
 
   <!-- Fim NavBar-->
 
@@ -51,9 +64,6 @@
   </section>
 
   <section id="about">
-  <div class="mt-5 container">
-    <h1 class="display-3 text-center text-primary-emphasis">Apresentação</h1>
-  </div>
   <div class="mt-5 container">
     <div class="row">
       <div class="px-3 col-lg-4 col-md-7 col-sm-12 order-md-1 mt-3 text-center">
@@ -84,9 +94,112 @@
   </div>
   </section>
 
+  <section>
+    <div class="mt-5 container">
+      <h3 class="display-6 text-center text-primary-emphasis">Experiências</h3>
+      <hr class="featurette-divider">
+    </div>
+    <div class="container">
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active rounded-circle" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="rounded-circle" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="rounded-circle" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row mb-2">
+              <div class="col-md-4">
+                <div class="row g-0 overflow-hidden flex-md-row mb-4 h-md-250 position-relative">
+                  <div class="col p-4 d-flex flex-column position-static text-center">                    
+                    <h4 class="d-inline-block mb-2 text-primary-emphasis">Algar Tech</h4>
+                    <div class="mb-1 text-body-secondary">Abril/2020 a Janeiro/2023</div>                    
+                    </a>
+                  </div>
+                  
+                </div>
+              </div>
+              <div class="col-md-8">
+                <div class="row g-0 overflow-hidden flex-md-row mb-4 h-md-250 position-relative">
+                  <div class="col p-4 d-flex flex-column position-static">                    
+                    <h4 class="mb-0">Analista de Suporte Pleno</h4>                    
+                    <p class="mt-2 mb-auto pb-4">Encarregado da gestão do ambiente, supervisionei o controle de chamados e prestei atendimento aos clientes do Banco Carrefour, 
+                      focando na manutenção de sistemas privativos, hardware e software. Minhas responsabilidades abrangeram a configuração de dispositivos móveis, 
+                      como celulares e tablets, bem como a manutenção de notebooks e computadores.
+                      Minha atuação incluiu o suporte e administração de Servidores Windows em ambientes físicos, abrangendo áreas cruciais como Active Directory (AD),
+                       DHCP, DNS, WSUS e Endpoint. Desempenhei atividades na Análise de Dados, utilizando ferramentas como SQL e Python em nível básico. 
+                      Estas experiências consolidaram minha habilidade em lidar com uma gama diversificada de responsabilidades, garantindo eficiência e integridade 
+                      operacional nos ambientes sob minha supervisão.
+                      </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row mb-2">
+              <div class="col-md-4">
+                <div class="row g-0 overflow-hidden flex-md-row mb-4 h-md-250 position-relative">
+                  <div class="col p-4 d-flex flex-column position-static text-center">                    
+                    <h4 class="d-inline-block mb-2 text-primary-emphasis">Techsupp Tecnologia</h4>
+                    <div class="mb-1 text-body-secondary">Junho/2015 a Agosto/2019</div>                    
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-8">
+                <div class="row g-0 overflow-hidden flex-md-row mb-4 h-md-250 position-relative">
+                  <div class="col p-4 d-flex flex-column position-static">                    
+                    <h4 class="mb-0">Analista de Suporte Pleno</h4>                    
+                    <p class="mt-2 mb-auto">Encarregado do gerenciamento e controle efetivo de chamados, desempenhei papel crucial no atendimento a clientes externos, 
+                      focando na manutenção abrangente de sistemas privativos, hardware e software.  
+                      Na esfera do suporte e administração de servidores, liderei operações em ambientes físicos, abrangendo áreas críticas como Active Directory (AD), DHCP, DNS,
+                      WSUS, além de monitoramento em ambiente Linux. Assumi a responsabilidade pela administração de servidores de arquivos (FileShare) e destaquei-me na gestão de
+                      backup, utilizando ferramentas como CA ARCServe e Cobian. Além disso, assumi o controle na administração de webmail, gerenciando plataformas como Google, 
+                      Zimbra e Office365. A administração de antivírus, com expertise em soluções como Symantec, Kaspersky e Qradar também esteve sob minha responsabilidade. 
+                      Minha atuação incluiu o gerenciamento e a implantação de redes, abrangendo tanto as cabeadas quanto as redes Wi-Fi.                      
+                      </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row mb-2">
+              <div class="col-md-4">
+                <div class="row g-0 overflow-hidden flex-md-row mb-4 h-md-250 position-relative">
+                  <div class="col p-4 d-flex flex-column position-static text-center">                    
+                    <h4 class="d-inline-block mb-2 text-primary-emphasis">ADN Tecnologia</h4>
+                    <div class="mb-1 text-body-secondary">Maio/2014 a Março/2015</div>                    
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-8">
+                <div class="row g-0 overflow-hidden flex-md-row mb-4 h-md-250 position-relative">
+                  <div class="col p-4 d-flex flex-column position-static">                    
+                    <h4 class="mb-0">Analista de Suporte Junior II</h4>                    
+                    <p class="mt-2 mb-auto">Apresentando ampla experiência em Tecnologia da Informação, desempenhei papel crucial no atendimento a clientes externos, 
+                      focando na manutenção abrangente de sistemas privativos, hardware e software. Destacando-se na Administração de Servidores Windows e 
+                      monitoramento de ambientes Linux. Atuei na gestão de serviços críticos, como Active Directory, DHCP, DNS, WSUS, Lync, SharePoint e Print Server.
+                      Assumi a responsabilidade pela administração Servidores de Arquivos, E-mail (Exchange 2007/2010/2013), Backup (CA ARCServe, Cobian) e Webmail (Google, Zimbra, Office365). 
+                      A administração de Antivírus (Symantec, Kaspersky) e ferramentas avançadas de monitoramento, como N-Central, Qradar e endpoint. Atuando também no controle de 
+                      chamados, gerenciando mudanças e mantendo uma base de conhecimentos alinhada à ISO 20.000, utilizando a Ferramenta de Gestão Auto-Task. Comprometido com soluções
+                      inovadoras para garantir eficiência e confiabilidade.
+                      </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
 <section>
   <div class="mt-5 container">
-    <h1 class="display-4 text-center text-primary-emphasis">Competências</h1>
+    <h3 class="display-6 text-center text-primary-emphasis">Competências</h3>
     <hr class="featurette-divider">
   </div>  
   <div class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">    
