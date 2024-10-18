@@ -535,7 +535,7 @@
     <div class="mt-5 container">
       <h3 class="fs-2 text-center text-primary-emphasis">Projetos Power BI</h3>
       <hr class="featurette-divider">
-      <!--<p class="lead text-center"> Clique em Ver Projeto para interagir com os dashboards desenvolvidos.</p>-->
+      <p class="lead text-center"> Clique em Ver Projeto para ampliar os dashboards desenvolvidos.</p>
     </div>  
   </section>
   
@@ -545,17 +545,33 @@
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 g-2">
           <div class="col">
             <div class="card shadow-sm">
-              <img src="assets/img/projects/projeto01.png" class="card-img-top" alt="...">
+              <img src="assets/img/projects/projeto_01.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Dashboard Analítico De Vendas Globais</h5>
                 <p class="card-text">Dados de vendas de uma empresa fictícia que comercializa produtos em todos os cantos do mundo.</p>
                 <div class="d-flex justify-content-between align-items-center">
-                  <!--<div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-primary">Ver Projeto</button>
-                  </div>-->
+                  <div class="btn-group">
+                    <!-- Botão para abrir o modal -->
+                    <button type="button" class="btn btn-sm btn-outline-primary" data-bs-toggle="modal" data-bs-target="#projectModal">Ver Projeto</button>
+                  </div>
                   <small class="text-body-secondary">17/10/2024</small>
                 </div>
               </div>
+            </div>
+          </div>
+          <!-- Modal -->
+          <div class="modal fade" id="projectModal" tabindex="-1" aria-labelledby="projectModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="projectModalLabel">Dashboard Analítico De Vendas Globais</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="{% static 'assets/img/project/projeto_01.png' %}" class="img-fluid" alt="Projeto 01">
+                        <p class="mt-3">Descrição detalhada do projeto com mais informações, se necessário.</p>
+                    </div>
+                </div>
             </div>
           </div>
           <div class="col">
@@ -565,12 +581,28 @@
                 <h5 class="card-title">Dashboard Analítico Vendas, Custo, Margem De Lucro e KPI</h5>
                 <p class="card-text">Dados de uma empresa de tecnologia fictícia que comercializa produtos em todos os cantos do mundo.</p>
                 <div class="d-flex justify-content-between align-items-center">
-                  <!--<div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-primary">Ver Projeto</button>
-                  </div>-->
+                  <div class="btn-group">
+                    <!-- Botão para abrir o modal -->
+                    <button type="button" class="btn btn-sm btn-outline-primary" data-bs-toggle="modal" data-bs-target="#projectModal02">Ver Projeto</button>
+                  </div>
                   <small class="text-body-secondary">18/10/2024</small>
                 </div>
               </div>
+            </div>
+          </div>
+          <!-- Modal -->
+          <div class="modal fade" id="projectModal02" tabindex="-1" aria-labelledby="projectModalLabel02" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="projectModalLabel02">Dashboard Analítico Vendas, Custo, Margem De Lucro e KPI</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="{% static 'assets/img/project/projeto_02.png' %}" class="img-fluid" alt="Projeto 02">
+                        <p class="mt-3">Descrição detalhada do projeto com mais informações, se necessário.</p>
+                    </div>
+                </div>
             </div>
           </div>
           <!--<div class="col">
